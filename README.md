@@ -64,3 +64,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## ⬇️ Installation
+Make sure you have installed the latest version of Node.js and Composer.
+- Clone the repository with the following command:
+
+```bash
+git clone https://github.com/rihannh/CinemaCGW.git
+```
+- Then run : <code>composer install</code>
+
+- Then Rename .env.example to .env setting the database
+
+- Then run : <code>php artisan key:generate</code>
+
+- Then run : <code>npm install</code> to install dependencies
+
+- Then run : <code>npm run dev</code> to rund the project in dev mode
+
+- Then run : <code>php artisan migrate</code>
+
+- Then run : <code>php artisan storage:link</code>
+
+- Then run : <code>php artisan db:seed --class=SeatsTableSeeder</code> (optional, have 3 reguler studio with 70 seats each and 3 vip studio with 35 seats each)
+
+- Then run : <code>php artisan serve</code>
